@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTC-FieldMgmt-Android</string>
+    <string name="title_field_detail">field Detail</string>
+
+</resources>
