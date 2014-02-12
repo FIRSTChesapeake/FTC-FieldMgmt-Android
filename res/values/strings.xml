@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">FTC-FieldMgmt-Android</string>
-    <string name="title_field_detail">field Detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
