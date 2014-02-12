@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnField1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Field 1" />
+        <Button
+            android:id="@+id/btnField2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Field 2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mainFrag"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="3" />
+</LinearLayout>

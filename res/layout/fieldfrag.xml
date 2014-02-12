@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/FieldID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:text="@string/default_team_id"
+        android:textAppearance="@style/SingleRobotStyle"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/RobotR1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_team_id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/RobotR2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_team_id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/RobotB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_team_id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/RobotB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_team_id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
